@@ -1,26 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>De' Hemaz Menu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De' Hemaz | Our Menu</title>
     <style>
-        body { background-color: #fdf5f2; font-family: 'Georgia', serif; color: #5d4037; text-align: center; }
-        .container { max-width: 600px; margin: auto; padding: 20px; }
-        img { width: 100%; border-radius: 15px; margin-bottom: 20px; }
-        h1 { color: #d4a373; }
-        .menu-item { background: white; padding: 15px; margin: 10px 0; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        body { 
+            background-color: #fdf5f2; /* Soft Pastel Pink/Cream */
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Georgia', serif;
+        }
+        .header {
+            padding: 30px;
+            text-align: center;
+            color: #5d4037;
+        }
+        .menu-container {
+            width: 90%;
+            max-width: 800px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 15px;
+            overflow: hidden;
+            background: white;
+            margin-bottom: 50px;
+        }
+        .menu-image {
+            width: 100%;
+            display: block;
+        }
+        .footer-btn {
+            background-color: #d4a373;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            margin-bottom: 50px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .footer-btn:hover { background-color: #bc8a5f; }
     </style>
 </head>
 <body>
-    <div class="container">
+
+    <div class="header">
         <h1>De' Hemaz</h1>
-        <p>Two Hearts • One Oven</p>
-        
-        <div class="menu-item">
-            <h2>Signature Pink Rosette Cake</h2>
-            <p>5-inch petite cake, perfect for gifts.</p>
-            <p><strong>RM XX.XX</strong></p>
-        </div>
-        
-        </div>
+        <p>Birthday Cakes • Cheesecakes • Brownies</p>
+    </div>
+
+    <div class="menu-container">
+        <img src="menu.png" alt="De Hemaz Bakery Menu" class="menu-image">
+    </div>
+
+    <a href="https://wa.me/601114271109" class="footer-btn">Order via WhatsApp</a>
+
 </body>
 </html>
